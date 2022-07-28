@@ -4,8 +4,8 @@ Feature: To verify user API
     When User send a get request to fetch the users in the page
     Then list of users should be displayed
     And Status code "200" should be returned
-    And Status code "200" should be returned
 
+    
   Scenario: To practice queryparams feature
     When User wants to access the weather Api
     Then Status code "200" should be returned
